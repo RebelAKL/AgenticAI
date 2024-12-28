@@ -1,0 +1,13 @@
+prefix=G:/Projects/AgenticAI/venv/Library
+exec_prefix=G:/Projects/AgenticAI/venv/Library
+libdir=G:/Projects/AgenticAI/venv/Library/lib
+sharedlibdir=G:/Projects/AgenticAI/venv/Library/lib
+includedir=G:/Projects/AgenticAI/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
